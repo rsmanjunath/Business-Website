@@ -1,0 +1,215 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img{
+    height: 40px;
+    padding-left: 30px;
+    
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav a{
+    float: rigth;
+    text-align: left;
+}
+
+#nav-bar ul li a:hover {
+    color: #007bff!important;
+}
+
+.navbar {
+    background-color: #fff;
+}
+
+.navbar-toggler {
+    border: none!important;
+}
+
+.nav-link {
+    color : #555!important;
+    font-weight: 600;
+    font-size: 16px; 
+}
+
+#slider {
+    width: 100%;
+    background-size: cover;
+    
+    
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+
+}
+
+.carousel-caption h5 {
+    color: #fff;
+    font-size: 42px;
+
+}
+.carousel-caption p{
+    text-align: center;
+}
+
+#about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+    
+}
+
+#about .btn {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.about-content {
+    padding-top: 20px;
+}
+
+
+#services {
+    background-color: black;
+    
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+#services h1
+{
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+
+#services h1::after
+{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+
+}
+
+
+.services
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+span
+{
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.service-box
+{
+    box-shadow: 0 0 4px 0 #ffa709;  
+    padding: 15px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.service-box .fa
+{
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 40px !important;
+    margin-bottom: 20px;
+}
+p
+{
+    text-align: justify;
+}
+.service-box a
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: block;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    text-align: center;
+    right: 20px;
+    bottom: -20px;
+    position: absolute;
+}
+
+.service-box a .fa
+{
+    color: #fff;
+    font-size: 25px !important;
+    padding-top: 6px;
+}
+
+#value
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#value .col-md-4
+{
+    padding: 10px 30px;
+}
+.review
+{
+    font-size: 16px;
+    padding: 10px 10px 10px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+}
+.review .fa-twitter
+{
+    color: #013f7e;
+}
+#value span
+{
+    color: #013f7e;
+    font-weight: 600;
+    font-size: 18px;
+}
+#testimonials h1
+{
+    margin-bottom: 20px;
+    color: #013f7e;
+}
+#value p
+{
+    padding-bottom: 20px; 
+}
+#value .middle
+{
+    margin-bottom: -30px;
+    margin-top: -30px;
+}
+
+#form {
+    background: orange;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
